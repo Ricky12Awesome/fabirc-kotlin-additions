@@ -1,0 +1,22 @@
+
+{
+  "schemaVersion": 1,
+  "id": "$modid",
+  "name": "$name",
+  "version": "$version",
+  "description": "$description",
+  "authors": ["Your_Name"],
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "com.template.TemplateMod"
+      }
+    ]
+  },
+  "depends": {
+    "fabric-language-kotlin": ">=$kotlinVersion",
+    "fabricloader": ">=0.9.0",
+    "minecraft": "1.16.x"
+  }
+}
